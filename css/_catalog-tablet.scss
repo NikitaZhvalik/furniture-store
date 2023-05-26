@@ -1,0 +1,26 @@
+@media (min-width: 768px ) and (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+
+    .product__box {
+        column-gap: 29px;
+        row-gap: 38px;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 833px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .product__content {
+        width: 345px;
+    }
+}

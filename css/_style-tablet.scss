@@ -1,0 +1,67 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+
+    .for {
+
+        &__box {
+            gap: 30px;
+        }
+
+        &__item {
+            height: 268px;
+        }
+
+        &__item {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            &_big {
+                height: 268px;
+            }
+        }
+
+        &__item_1 {
+            background-image: url(../img/tablet/for_relax.jpg);
+        }
+
+        &__item_2 {
+            background-image: url(../img/tablet/for_work.jpg);
+        }
+
+        &__item_3 {
+            background-image: url(../img/tablet/for_kitch.jpg);
+        }
+
+        &__item_4 {
+            background-image: url(../img/tablet/for_child.jpg);
+        }
+
+        &__item_5 {
+            background-image: url(../img/tablet/for_bath.jpg);
+        }
+    }
+
+    .product__box {
+        column-gap: 29px;
+        row-gap: 38px;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 833px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .product__content {
+        width: 345px;
+    }
+}

@@ -1,0 +1,106 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    select {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .header {
+
+        &__title {
+            min-height: 58px;
+            padding-top: 32px;
+            border: none;
+        }
+
+        &__svg {
+            width: 99px;
+
+            &_mobile {
+                &:hover path {
+                    fill: black;
+                }
+            }
+        }
+
+        &__input {
+            display: none;
+        }
+
+        &__nav {
+            display: none;
+
+            &_mobile {
+                display: flex;
+                align-items: center;
+                gap: 32px;
+            }
+        }
+
+        &__box-text_catalog {
+            padding-top: 100px;
+            padding-bottom: 170px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__text {
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+
+    .filter {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        gap: 16px;
+        flex-direction: column;
+
+        &__nav_link {
+            font-size: 14px;
+        }
+    }
+
+    .product {
+        gap: 32px;
+
+        &__name {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__price {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .box__link {
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+
+    .footer {
+        padding-bottom: 32px;
+
+        &__info {
+            gap: 100px;
+        }
+
+        &__content {
+            justify-content: center;
+            gap: 34px;
+        }
+
+        .footer__logo {
+            display: none;
+        }
+    }
+}
